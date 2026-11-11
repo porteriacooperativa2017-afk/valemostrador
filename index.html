@@ -83,30 +83,14 @@
   <body>
     <main class="card">
       <h1>Vale // Mostrador</h1>
-      <p>El sistema de control de entregas ya incluye la pantalla de logueo en el servidor local.</p>
-      <p>Si abriste este archivo directamente, iniciá la aplicación localmente con:</p>
-      <p><code>npm install</code> <code>npm start</code></p>
-      <p>Luego abrí la URL <code>http://localhost:3000/</code> para entrar al logueo.</p>
+      <p>Abriendo la aplicación alojada en el servidor.</p>
       <div class="actions">
-        <a href="http://localhost:3000/" id="open-local">Abrir login local</a>
+        <a href="https://mostrador-kapb.onrender.com/" id="open-app">Abrir Vale // Mostrador</a>
       </div>
-      <div class="status" id="status">Comprobando servidor local…</div>
+      <div class="status" id="status">Redirigiendo al servidor…</div>
     </main>
     <script>
-      (async function () {
-        const status = document.getElementById('status');
-        const localUrl = 'http://localhost:3000/';
-        try {
-          const response = await fetch(localUrl, { method: 'HEAD', cache: 'no-store' });
-          if (response.ok) {
-            status.textContent = 'Servidor local disponible. Redirigiendo al logueo…';
-            window.location.replace(localUrl);
-            return;
-          }
-        } catch (error) {
-          status.textContent = 'No se encontró un servidor local activo. Ejecutá npm start y vuelve a abrir esta página.';
-        }
-      })();
+      window.location.replace('https://mostrador-kapb.onrender.com/');
     </script>
   </body>
 </html>
