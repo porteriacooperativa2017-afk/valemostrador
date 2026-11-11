@@ -1,0 +1,786 @@
+{
+  "deliveries": [
+    {
+      "date": "2026-10-14T20:16:56.070Z",
+      "code": "1234",
+      "person": "GUILLE",
+      "quantity": 2,
+      "state": "AUTORIZADO",
+      "operator": "DIEGO",
+      "pharmacy": "PUESTO 1 GUARDIA PRINCIPAL"
+    },
+    {
+      "date": "2026-10-14T20:18:21.148Z",
+      "code": "1234",
+      "person": "ROXANA",
+      "quantity": 2,
+      "state": "AUTORIZADO",
+      "operator": "DIEGO",
+      "pharmacy": "PUESTO 1 GUARDIA PRINCIPAL"
+    },
+    {
+      "date": "2026-10-14T21:22:14.768Z",
+      "code": "2121",
+      "dni": "28226455",
+      "quantity": 6,
+      "state": "AUTORIZADO",
+      "operator": "DIEGO",
+      "pharmacy": "PARQUE"
+    },
+    {
+      "date": "2026-10-14T21:24:41.691Z",
+      "code": "2121",
+      "dni": "28226455",
+      "quantity": 333,
+      "state": "AUTORIZADO",
+      "operator": "DIEGO",
+      "pharmacy": "PARQUE"
+    },
+    {
+      "date": "2026-10-14T21:42:14.916Z",
+      "code": "0001",
+      "dni": "27647065",
+      "quantity": 5,
+      "state": "DENEGADO",
+      "operator": "DIEGO",
+      "pharmacy": "",
+      "visitId": "92959016b96dde3c5ccbef4c"
+    },
+    {
+      "date": "2026-10-14T21:46:42.947Z",
+      "code": "3030",
+      "dni": "12345678",
+      "quantity": 6,
+      "state": "AUTORIZADO",
+      "operator": "DIEGO",
+      "pharmacy": "PRUEBA",
+      "visitId": "05c68019947be5cdf5aa02ac"
+    },
+    {
+      "date": "2026-10-14T22:17:48.380Z",
+      "code": "3131",
+      "dni": "88888888",
+      "quantity": 4,
+      "state": "AUTORIZADO",
+      "operator": "DIEGO",
+      "pharmacy": "prueba2",
+      "visitId": "0bb35b36377aa7f474aa80d1"
+    },
+    {
+      "date": "2026-10-14T22:18:21.672Z",
+      "code": "2121",
+      "dni": "12245458",
+      "quantity": 1,
+      "state": "DENEGADO",
+      "operator": "DIEGO",
+      "pharmacy": "",
+      "visitId": null
+    },
+    {
+      "date": "2026-10-14T22:20:22.373Z",
+      "code": "5454",
+      "dni": "27647065",
+      "quantity": 1,
+      "state": "DENEGADO",
+      "operator": "DIEGO",
+      "pharmacy": "",
+      "visitId": "94b4eefe2855a4aed1c9677b"
+    },
+    {
+      "date": "2026-10-16T20:05:30.250Z",
+      "code": "5454",
+      "person": "PRUEBA 222 SEDA (No autorizado)",
+      "quantity": 2,
+      "state": "DENEGADO",
+      "operator": "DIEGO-DANTE",
+      "pharmacy": "",
+      "visitId": "ad083ef56dc611d3b5e8a03f",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-16T20:12:31.724Z",
+      "code": "2126",
+      "person": "VISITANTE: AMAYA  MANUEL   DNI: 14966061  EMPRESA: FCI ASANTA ANA / 2185 (No autorizado)",
+      "quantity": 6,
+      "state": "DENEGADO",
+      "operator": "DIEGO-DANTE",
+      "pharmacy": "",
+      "visitId": "4b2b05c7b9311b81add849fd",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-16T21:53:32.881Z",
+      "code": "2245",
+      "person": "NAVAS ROMÁN (No autorizado)",
+      "quantity": 3,
+      "state": "DENEGADO",
+      "operator": "DIEGO-DANTE",
+      "pharmacy": "",
+      "visitId": "19294c867a3921b2389a2554",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-16T22:07:46.869Z",
+      "code": "336",
+      "person": "VISITANTE: PEREZ JUAN  | DNI: FARMACIA HORIZONTE  | EMPRESA: 36768052 (No autorizado)",
+      "quantity": 6,
+      "state": "DENEGADO",
+      "operator": "DIEGO-DANTE",
+      "pharmacy": "",
+      "visitId": "e94538a3d6b68a6bd99f5d56",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-17T13:01:24.238Z",
+      "code": "2992",
+      "person": "SURA DANIEL 32352405 AZCUENAGA (No autorizado)",
+      "quantity": 6,
+      "state": "DENEGADO",
+      "operator": "DIEGO-DANTE",
+      "pharmacy": "",
+      "visitId": "ccfdd3c00a4bb5182b67ae7f",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-17T17:51:39.372Z",
+      "code": "666",
+      "person": "PRUEBA 12333666 SACA (No autorizado)",
+      "quantity": 33,
+      "state": "DENEGADO",
+      "operator": "DIEGO-DANTE",
+      "waitingTime": "07:41:32",
+      "pharmacy": "",
+      "visitId": "72f401adf4a86c2a3c98eea9",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-17T17:53:44.919Z",
+      "code": "3360",
+      "person": "PACHECO ERICA PAOLA (No autorizado)",
+      "quantity": 3,
+      "state": "DENEGADO",
+      "operator": "DIEGO-DANTE",
+      "waitingTime": "02:07:00",
+      "pharmacy": "",
+      "visitId": "bd58d010cfcb5ec66d2ff318",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-17T18:52:28.881Z",
+      "code": "6660",
+      "person": "TORRES LAUTARO (No autorizado)",
+      "quantity": 6,
+      "state": "DENEGADO",
+      "operator": "DIEGO-DANTE",
+      "waitingTime": "03:29:27",
+      "pharmacy": "",
+      "visitId": "6b76df140d000c2a04a8b621",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-17T18:53:05.199Z",
+      "code": "0",
+      "person": "TOBARES NAHUEL (No autorizado)",
+      "quantity": 77,
+      "state": "DENEGADO",
+      "operator": "DIEGO-DANTE",
+      "waitingTime": "04:29:03",
+      "pharmacy": "",
+      "visitId": "2d089782663395b9880a6cd7",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-17T18:53:38.604Z",
+      "code": "2992",
+      "person": "SURA DANIEL 32352405 AZCUENAGA (No autorizado)",
+      "quantity": 9,
+      "state": "DENEGADO",
+      "operator": "DIEGO-DANTE",
+      "waitingTime": "03:35:27",
+      "pharmacy": "",
+      "visitId": "cc84f107f9eb67f3875e048a",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-17T19:02:53.572Z",
+      "code": "3942",
+      "person": "CRISTIAN PEREA (No autorizado)",
+      "quantity": 4,
+      "state": "DENEGADO",
+      "operator": "DIEGO-DANTE",
+      "waitingTime": "03:57",
+      "pharmacy": "",
+      "visitId": "477131251c138e87b849a66d",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-17T19:03:58.172Z",
+      "code": "2534",
+      "person": "VILLEGAS CLAUDIO 41366692 PARQUE 5 (No autorizado)",
+      "quantity": 77,
+      "state": "DENEGADO",
+      "operator": "DIEGO-DANTE",
+      "waitingTime": "04:00",
+      "pharmacy": "",
+      "visitId": "e28b12331b0a08bad0d8f17c",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-17T19:06:23.145Z",
+      "code": "1545",
+      "person": "LAISECA, EMILIANO  ARMANDO - DNI: 39088990 (No autorizado)",
+      "quantity": 9,
+      "state": "DENEGADO",
+      "operator": "DIEGO-DANTE",
+      "waitingTime": "05:00",
+      "pharmacy": "",
+      "visitId": "bb191b223e00828628ec2eb2",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-17T19:12:39.731Z",
+      "code": "2322",
+      "person": "DIEGO 28226455 PRUEBA DDD (No autorizado)",
+      "quantity": 2,
+      "state": "DENEGADO",
+      "operator": "DIEGO-DANTE",
+      "waitingTime": "00:00",
+      "pharmacy": "PRUEBA DDD",
+      "visitId": "8637f674bf6baeb4b6f37709",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-17T19:39:04.420Z",
+      "code": "2322",
+      "person": "DANTE",
+      "quantity": 33,
+      "state": "AUTORIZADO",
+      "operator": "DIEGO-DANTE",
+      "waitingTime": "00:01",
+      "pharmacy": "PRUEBA DDD",
+      "visitId": "00befc188db995399d6e81a8",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-17T19:54:18.797Z",
+      "code": "3360",
+      "person": "AMARALES MAURICIO 32029936 RUTINI (No autorizado)",
+      "quantity": 23,
+      "state": "DENEGADO",
+      "operator": "DIEGO-DANTE",
+      "waitingTime": "05:52",
+      "pharmacy": "",
+      "emailWarning": "",
+      "visitId": "e56257e187df36315de07f4e",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-17T20:42:17.278Z",
+      "code": "2322",
+      "person": "DIEGO",
+      "quantity": 5,
+      "state": "AUTORIZADO",
+      "operator": "DIEGO-DANTE",
+      "waitingTime": "00:01",
+      "pharmacy": "PRUEBA DDD",
+      "emailWarning": "",
+      "visitId": "0517ca5c96ac87c89b967323",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-17T20:50:51.485Z",
+      "code": "12456",
+      "person": "DIEGO",
+      "quantity": 2,
+      "state": "AUTORIZADO",
+      "operator": "DIEGO-DANTE",
+      "waitingTime": "00:18",
+      "pharmacy": "PRUEBA DDD",
+      "emailWarning": "",
+      "visitId": "29a1310bc712e107459e07d6",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-19T14:50:18.701Z",
+      "code": "1",
+      "person": "VISITANTE: AMAYA  MANUEL   DNI: 14966061  EMPRESA: FCI ASANTA ANA (No autorizado)",
+      "quantity": 6,
+      "state": "DENEGADO",
+      "operator": "DIEGO-DANTE",
+      "waitingTime": "00:00",
+      "pharmacy": "",
+      "emailWarning": "",
+      "visitId": "bdca80dee55dc63bcaaba8af",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-19T14:56:30.095Z",
+      "code": "12456",
+      "person": "DIEGO",
+      "quantity": 6,
+      "state": "AUTORIZADO",
+      "operator": "DIEGO-DANTE",
+      "waitingTime": "00:00",
+      "pharmacy": "PRUEBA DDD",
+      "emailWarning": "",
+      "visitId": "55811ebe892844bcf57d2580",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-20T13:31:56.056Z",
+      "code": "5",
+      "person": "prueba",
+      "quantity": 3,
+      "state": "AUTORIZADO",
+      "operator": "diego.dante",
+      "waitingTime": "00:33",
+      "pharmacy": "FARMACIA DEL PUEBLO",
+      "emailWarning": "No se envió aviso por correo: MAESTRO no contiene una dirección de email.",
+      "visitId": "68a5e1f34605a0ca98ddb8b0",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-20T13:31:56.056Z",
+      "code": "41",
+      "person": "prueba",
+      "quantity": 3,
+      "state": "AUTORIZADO",
+      "operator": "diego.dante",
+      "waitingTime": "00:33",
+      "pharmacy": "FARMACIA VITALFARMA",
+      "emailWarning": "No se envió aviso por correo: MAESTRO no contiene una dirección de email.",
+      "visitId": "68a5e1f34605a0ca98ddb8b0",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-20T18:54:40.211Z",
+      "code": "385",
+      "person": "URETA GUILLERMO",
+      "quantity": 2,
+      "state": "AUTORIZADO",
+      "operator": "diego.dante",
+      "waitingTime": "02:44",
+      "pharmacy": "FARMACIA URETA",
+      "emailWarning": "No se envió aviso por correo: MAESTRO no contiene una dirección de email.",
+      "visitId": "5f5e72227d65d99cbc9df504",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-20T19:32:21.968Z",
+      "code": "41",
+      "person": "prueba",
+      "quantity": 2,
+      "state": "AUTORIZADO",
+      "operator": "diego.dante",
+      "waitingTime": "00:32",
+      "pharmacy": "FARMACIA VITALFARMA",
+      "emailWarning": "No se envió aviso por correo: MAESTRO no contiene una dirección de email.",
+      "visitId": "f2828e1824eac49ddfbc6c28",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-20T19:32:21.968Z",
+      "code": "43",
+      "person": "prueba",
+      "quantity": 3,
+      "state": "AUTORIZADO",
+      "operator": "diego.dante",
+      "waitingTime": "00:32",
+      "pharmacy": "FARMACIA MEDRANO",
+      "emailWarning": "No se envió aviso por correo: MAESTRO no contiene una dirección de email.",
+      "visitId": "f2828e1824eac49ddfbc6c28",
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-20T21:03:31.556Z",
+      "code": "5",
+      "person": "prueba",
+      "quantity": 1,
+      "state": "AGREGADO",
+      "operator": "diego.dante",
+      "waitingTime": "00:33",
+      "rowNumber": 10,
+      "addition": true,
+      "spreadsheetSynced": true
+    },
+    {
+      "date": "2026-10-20T21:03:31.556Z",
+      "code": "41",
+      "person": "prueba",
+      "quantity": 20,
+      "state": "AGREGADO",
+      "operator": "diego.dante",
+      "waitingTime": "00:33",
+      "rowNumber": 11,
+      "addition": true,
+      "spreadsheetSynced": true
+    }
+  ],
+  "sessions": [
+    {
+      "date": "2026-10-14T20:16:13.819Z",
+      "operator": "DIEGO",
+      "remember": false
+    },
+    {
+      "date": "2026-10-14T20:57:53.706Z",
+      "operator": "DIEGO",
+      "remember": false
+    },
+    {
+      "date": "2026-10-14T21:01:01.687Z",
+      "operator": "DIEGO",
+      "remember": false
+    },
+    {
+      "date": "2026-10-14T21:06:34.343Z",
+      "operator": "DIEGO",
+      "remember": false
+    },
+    {
+      "date": "2026-10-14T21:21:59.948Z",
+      "operator": "DIEGO",
+      "remember": false
+    },
+    {
+      "date": "2026-10-14T21:24:23.073Z",
+      "operator": "DIEGO",
+      "remember": false
+    },
+    {
+      "date": "2026-10-14T21:40:30.534Z",
+      "operator": "DIEGO",
+      "remember": false
+    },
+    {
+      "date": "2026-10-16T10:12:28.054Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-16T10:17:01.509Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-16T11:29:57.943Z",
+      "operator": "operario",
+      "remember": false
+    },
+    {
+      "date": "2026-10-16T11:30:31.676Z",
+      "operator": "operario",
+      "remember": false
+    },
+    {
+      "date": "2026-10-16T11:31:09.818Z",
+      "operator": "operario",
+      "remember": false
+    },
+    {
+      "date": "2026-10-16T19:16:50.260Z",
+      "operator": "operario",
+      "remember": false
+    },
+    {
+      "date": "2026-10-16T19:17:56.752Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-16T19:21:11.106Z",
+      "operator": "operario",
+      "remember": false
+    },
+    {
+      "date": "2026-10-16T19:26:22.846Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-16T19:29:57.018Z",
+      "operator": "operario",
+      "remember": false
+    },
+    {
+      "date": "2026-10-16T19:31:49.149Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-16T20:05:18.428Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-16T20:08:18.039Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-16T20:12:05.050Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-17T13:00:51.251Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-17T17:36:53.148Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-17T17:41:42.289Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-17T17:47:58.604Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-17T18:07:56.511Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-17T19:02:33.988Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-17T19:05:39.294Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-17T19:35:05.870Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-17T19:48:48.227Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-17T20:00:27.637Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-17T20:07:37.732Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-19T14:49:21.115Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-10-20T13:00:01.500Z",
+      "operator": "diego.dante",
+      "remember": false
+    },
+    {
+      "date": "2026-10-20T13:31:24.227Z",
+      "operator": "diego.dante",
+      "remember": false
+    },
+    {
+      "date": "2026-10-20T14:36:41.131Z",
+      "operator": "diego.dante",
+      "remember": false
+    },
+    {
+      "date": "2026-10-20T15:16:58.502Z",
+      "operator": "diego.dante",
+      "remember": false
+    },
+    {
+      "date": "2026-10-20T16:14:49.536Z",
+      "operator": "diego.dante",
+      "remember": false
+    },
+    {
+      "date": "2026-10-20T16:55:29.045Z",
+      "operator": "diego.dante",
+      "remember": false
+    },
+    {
+      "date": "2026-10-20T17:13:32.175Z",
+      "operator": "diego.dante",
+      "remember": false
+    },
+    {
+      "date": "2026-10-20T18:54:13.064Z",
+      "operator": "diego.dante",
+      "remember": false
+    },
+    {
+      "date": "2026-10-20T19:27:46.921Z",
+      "operator": "diego.dante",
+      "remember": false
+    },
+    {
+      "date": "2026-10-20T19:36:22.159Z",
+      "operator": "diego.dante",
+      "remember": false
+    },
+    {
+      "date": "2026-10-20T19:39:13.149Z",
+      "operator": "diego.dante",
+      "remember": false
+    },
+    {
+      "date": "2026-10-20T19:43:37.973Z",
+      "operator": "diego.dante",
+      "remember": false
+    },
+    {
+      "date": "2026-10-20T19:47:04.384Z",
+      "operator": "diego.dante",
+      "remember": false
+    },
+    {
+      "date": "2026-10-20T20:58:35.287Z",
+      "operator": "diego.dante",
+      "remember": false
+    },
+    {
+      "date": "2026-10-21T10:07:08.509Z",
+      "operator": "diego.dante",
+      "remember": false
+    },
+    {
+      "date": "2026-11-03T17:51:37.683Z",
+      "operator": "DIEGO-DANTE",
+      "remember": false
+    },
+    {
+      "date": "2026-11-10T18:39:58.945Z",
+      "operator": "prueba3",
+      "remember": false
+    },
+    {
+      "date": "2026-11-10T21:39:18.377Z",
+      "operator": "prueba3",
+      "remember": false
+    },
+    {
+      "date": "2026-11-11T11:34:42.770Z",
+      "operator": "prueba3",
+      "remember": false
+    },
+    {
+      "date": "2026-11-11T11:38:14.735Z",
+      "operator": "prueba3",
+      "remember": false
+    },
+    {
+      "date": "2026-11-11T11:45:08.614Z",
+      "operator": "prueba3",
+      "remember": false
+    },
+    {
+      "date": "2026-11-11T11:46:02.824Z",
+      "operator": "operario",
+      "remember": false
+    },
+    {
+      "date": "2026-11-11T12:34:12.453Z",
+      "operator": "prueba3",
+      "remember": false
+    },
+    {
+      "date": "2026-11-11T12:56:20.611Z",
+      "operator": "prueba3",
+      "remember": false
+    },
+    {
+      "date": "2026-11-11T13:07:10.359Z",
+      "operator": "prueba3",
+      "remember": false
+    },
+    {
+      "date": "2026-11-11T13:10:07.499Z",
+      "operator": "prueba3",
+      "remember": false
+    },
+    {
+      "date": "2026-11-11T13:20:52.631Z",
+      "operator": "prueba3",
+      "remember": true
+    },
+    {
+      "date": "2026-11-11T13:23:50.696Z",
+      "operator": "prueba3",
+      "remember": false
+    },
+    {
+      "date": "2026-11-11T15:49:47.334Z",
+      "operator": "prueba3",
+      "remember": false
+    }
+  ],
+  "operators": [
+    {
+      "username": "DIEGO",
+      "passwordSalt": "856f8e81877d06d6e3adfd16dbd99930",
+      "passwordHash": "883681a650f1182bd5c693f9a77b649ee1f860a979105266a7fbddc53ad24d9c7b378ebc6bd916190a6702828dc70be0cf32d8713377a445a722b04bc5f79840",
+      "createdAt": "2026-10-14T20:16:13.817Z"
+    },
+    {
+      "username": "DIEGO-DANTE",
+      "passwordSalt": "4b3d1c62356e68ad5d4aaebf1618f82d",
+      "passwordHash": "437510aa93c9fa8375d75ccffcd4274ea51d0f8674f743c223cfeabafe6fda5e3460bc792ab181811a361a7f558e87d9ed87da41fc7327e046709852a42942d4",
+      "createdAt": "2026-10-16T10:12:28.039Z"
+    },
+    {
+      "username": "diego.dante",
+      "passwordSalt": "2987669e6b35f38e4be8c4488b4685f6",
+      "passwordHash": "7c8ba5add3302b3acec8849801302abb875e42d97655935dd20e9064b046cff803d2e236fe9b3552293c9b769b21bd8554116202d0c3496deb33c0f801faf467",
+      "createdAt": "2026-10-20T13:00:01.498Z"
+    },
+    {
+      "username": "prueba3",
+      "passwordSalt": "e5498761509e53044c2d5760a654a8cc",
+      "passwordHash": "8cc224d0a08878688ba409d50ab8fdd044bfac55eaa3cc051a3a559a79c484b47dbd76681141b4b3117870eed95657c99aef35920fb1e7122f872a65005a7640",
+      "createdAt": "2026-11-10T18:39:58.926Z"
+    }
+  ],
+  "completedVisits": [
+    "92959016b96dde3c5ccbef4c",
+    "05c68019947be5cdf5aa02ac",
+    "0bb35b36377aa7f474aa80d1",
+    "94b4eefe2855a4aed1c9677b",
+    "ad083ef56dc611d3b5e8a03f",
+    "4b2b05c7b9311b81add849fd",
+    "19294c867a3921b2389a2554",
+    "e94538a3d6b68a6bd99f5d56",
+    "ccfdd3c00a4bb5182b67ae7f",
+    "72f401adf4a86c2a3c98eea9",
+    "bd58d010cfcb5ec66d2ff318",
+    "6b76df140d000c2a04a8b621",
+    "2d089782663395b9880a6cd7",
+    "cc84f107f9eb67f3875e048a",
+    "477131251c138e87b849a66d",
+    "e28b12331b0a08bad0d8f17c",
+    "bb191b223e00828628ec2eb2",
+    "8637f674bf6baeb4b6f37709",
+    "00befc188db995399d6e81a8",
+    "e56257e187df36315de07f4e",
+    "0517ca5c96ac87c89b967323",
+    "29a1310bc712e107459e07d6",
+    "bdca80dee55dc63bcaaba8af",
+    "55811ebe892844bcf57d2580",
+    "68a5e1f34605a0ca98ddb8b0",
+    "5f5e72227d65d99cbc9df504",
+    "f2828e1824eac49ddfbc6c28"
+  ]
+}

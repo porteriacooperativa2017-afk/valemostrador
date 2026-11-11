@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vale // Mostrador</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #071014;
+        --panel: #0c191f;
+        --line: #1d3942;
+        --text: #d9f6f2;
+        --muted: #8aa6ab;
+        --green: #00ffcc;
+        --blue: #00a6ff;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: radial-gradient(circle at top, #133840 0%, #071014 58%);
+        color: var(--text);
+        font-family: "Segoe UI", system-ui, sans-serif;
+      }
+      .card {
+        width: min(560px, calc(100% - 32px));
+        background: rgba(12, 25, 31, 0.95);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 32px 28px;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+      }
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2rem, 4vw, 2.75rem);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--green);
+      }
+      p {
+        margin: 0 0 14px;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+      code {
+        display: inline-block;
+        background: #08161c;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 6px 10px;
+        color: var(--text);
+        font-family: "Cascadia Code", Consolas, monospace;
+      }
+      .actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 18px;
+      }
+      a, button {
+        appearance: none;
+        border: 1px solid var(--blue);
+        background: rgba(0, 166, 255, 0.1);
+        color: var(--text);
+        border-radius: 10px;
+        text-decoration: none;
+        padding: 12px 16px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+      .status {
+        margin-top: 18px;
+        color: var(--green);
+        min-height: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <h1>Vale // Mostrador</h1>
+      <p>El sistema de control de entregas ya incluye la pantalla de logueo en el servidor local.</p>
+      <p>Si abriste este archivo directamente, iniciá la aplicación localmente con:</p>
+      <p><code>npm install</code> <code>npm start</code></p>
+      <p>Luego abrí la URL <code>http://localhost:3000/</code> para entrar al logueo.</p>
+      <div class="actions">
+        <a href="http://localhost:3000/" id="open-local">Abrir login local</a>
+      </div>
+      <div class="status" id="status">Comprobando servidor local…</div>
+    </main>
+    <script>
+      (async function () {
+        const status = document.getElementById('status');
+        const localUrl = 'http://localhost:3000/';
+        try {
+          const response = await fetch(localUrl, { method: 'HEAD', cache: 'no-store' });
+          if (response.ok) {
+            status.textContent = 'Servidor local disponible. Redirigiendo al logueo…';
+            window.location.replace(localUrl);
+            return;
+          }
+        } catch (error) {
+          status.textContent = 'No se encontró un servidor local activo. Ejecutá npm start y vuelve a abrir esta página.';
+        }
+      })();
+    </script>
+  </body>
+</html>
