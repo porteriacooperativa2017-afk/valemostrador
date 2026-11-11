@@ -15,7 +15,7 @@ const DATA_FILE = process.env.DATA_FILE || path.join(__dirname, 'vales-data.json
 const OPERATOR_USERNAME = process.env.OPERATOR_USERNAME || 'operario';
 const OPERATOR_PASSWORD = process.env.OPERATOR_PASSWORD || (IS_PRODUCTION ? '' : 'vales2026');
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || '';
-const ALLOW_OPERATOR_REGISTRATION = process.env.ALLOW_OPERATOR_REGISTRATION !== 'false';
+const ALLOW_OPERATOR_REGISTRATION = true;
 const SESSION_SECRET = process.env.SESSION_SECRET || (IS_PRODUCTION ? '' : crypto.randomBytes(32).toString('hex'));
 const REGISTRO_WRITE_URL = process.env.REGISTRO_WRITE_URL || 'https://script.google.com/macros/s/AKfycbw-kgQZNcY6IDxGpu-HAAp61YuPpnu1pGI_iyVFLYjcq6CMhh6Bnepp8dGrSjlcoLyU/exec';
 const REGISTRO_API_TOKEN = process.env.REGISTRO_API_TOKEN || '';
